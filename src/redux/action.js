@@ -8,7 +8,7 @@ export const FETCH_USER_SUCCESS = "FETCH_USER_SUCCESS";
 export const fakeLogin = payload => {
   return async dispatch => {
     const { username, password } = payload;
-    if (username === "admin" && password === "123") {
+    if (username === "DangDuong" && password === "123") {
       dispatch({
         type: LOGIN_SUCCESS,
         payload

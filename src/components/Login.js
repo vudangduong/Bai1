@@ -22,13 +22,13 @@ function Login() {
   }, [userlogined, navigate]);
   return (
     <form>
-      <label>User name</label>
+      <label>Tên Đăng Nhập</label>
       <input
         id="username"
         onChange={e => setValueForUser("username", e.target.value)}
         type="text"
       />
-      <label>Password</label>
+      <label>Mật Khẩu</label>
       <input
         id="password"
         onChange={e => setValueForUser("password", e.target.value)}
@@ -40,7 +40,7 @@ function Login() {
           login();
         }}
       >
-        Login
+        Đăng Nhập
       </button>
     </form>
   );
